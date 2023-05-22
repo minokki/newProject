@@ -1,0 +1,176 @@
+/* 네브바 햄버거 스타일 */
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+  position: relative;
+  top: 0px;  /* top 위치를 조절하여 원하는 위치에 설정 */
+  right: 0px; /* right 위치를 조절하여 원하는 위치에 설정 */
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow:none;
+  background-color: #f8f9fa;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  display: block;
+  width: 30px; 
+  height: 2px; 
+  position: relative;
+  background: #000;
+  transition: all 0.35s ease-out;
+}
+
+.navbar-toggler .navbar-toggler-icon::before, 
+.navbar-toggler .navbar-toggler-icon::after {
+  width: 30px; 
+  height: 2px; 
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  content: '';
+  transition: all 0.35s ease-out;
+}
+
+.navbar-toggler .navbar-toggler-icon::before {
+  transform: translateY(-10px); /* 아이콘 간격 조정 */
+}
+
+.navbar-toggler .navbar-toggler-icon::after {
+  transform: translateY(10px); /* 아이콘 간격 조정 */
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background: transparent;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+  transform: translateY(0) rotate(-45deg);
+}
+
+
+/* 드롭다운 */
+.dropdown:hover>.dropdown-menu {
+display: block;
+}
+
+
+/* 네비게이션바  */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent !important;
+  transition: background-color 0.5s ease; /* 0.5s 동안 부드럽게 전환 */
+  font-family: Arial, sans-serif; /* 가독성을 높이기 위한 폰트 변경 */
+}
+/* 네비게이션바 스크롤 */
+.nav-scrolled {
+  background-color: #f8f9fa !important;
+  transition: background-color 0.3s ease-in-out; /* 배경색 전환 효과를 부드럽게*/
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 스크롤 시 하단에 그림자를 추가 */
+}
+
+/* 네비게이션 링크 스타일 */
+.nav-link {
+  color: #000; /* 검은색 텍스트 */
+  transition: color 0.3s ease; /* 전환 효과 */
+}
+
+/* 네비게이션 링크 호버 스타일 */
+.nav-link:hover {
+  color: #fff; /* 호버 시 흰색으로 변경 */
+}
+
+/* 드롭다운 메뉴 스타일 */
+.dropdown-menu {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  visibility: hidden;
+}
+
+/* 부모가 호버되었을 때의 드롭다운 메뉴 스타일 */
+.nav-item.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+/* 드롭다운 아이템 스타일 */
+.dropdown-item {
+  color: #000; /* 검은색 텍스트 */
+  transition: background-color 0.3s ease, color 0.3s ease; /* 전환 효과 */
+}
+
+/* 드롭다운 아이템 호버 스타일 */
+.dropdown-item:hover {
+  background-color: #000; /* 호버 시 배경색을 검은색으로 변경 */
+  color: #fff; /* 호버 시 텍스트 색상을 흰색으로 변경 */
+}
+
+/* 버튼 스타일 */
+.btn {
+  transition: background-color 0.3s ease, color 0.3s ease; /* 전환 효과 */
+}
+
+/* 버튼 호버 스타일 */
+.btn:hover {
+  background-color: #000; /* 호버 시 배경색을 검은색으로 변경 */
+  color: #fff; /* 호버 시 텍스트 색상을 흰색으로 변경 */
+}
+  
+
+/* 반응형 웹 - 화면 너비가 998px 미만일 때 슬라이드 효과 적용 */
+@media (max-width: 998px) {
+  .navbar-toggler {
+    z-index: 1001;
+    position: relative;
+}
+
+/* 기존의 .navbar-collapse 스타일 수정 */
+.navbar-collapse {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  background-color: rgba(221, 221, 221, 0.5);
+  transition: all 0.3s;
+  margin-top: 0;
+  overflow-x: hidden;
+  transform: translateX(100%);
+  z-index: 1000;
+}
+
+/* 새로운 .nav-menu-container 스타일 추가 */
+.nav-menu-container {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+  .navbar-collapse.show {
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 999px) {
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+}
+
+  /* 네비게이션 목록 */
+  .menu-item {
+    font-weight: bold;
+    margin-right: 20px;
+}

@@ -1,0 +1,288 @@
+  <!doctype html>
+  <html lang="ko" data-bs-theme="auto">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <meta name="generator" content="">
+      <title>벌초박사</title>
+      <!-- 링크 -->
+      <!-- 부트스트랩 cnd -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <!-- 부트스트랩 아이콘 -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <!-- 헤더css -->
+      <link rel="stylesheet" type="text/css" href="css/header.css">
+      <!-- index css -->
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+      <!-- 푸터css -->
+      <link rel="stylesheet" type="text/css" href="css/footer.css">
+      <!-- 애니메이션 기능 aos라이브러리 -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Slick CSS(슬릭슬라이더) -->
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    </head>
+    <body>
+
+      <!-- 네비게이션 -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" class="img-fluid" id="logo" alt="회사로고" width="200" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-end d-none"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <div class="nav-menu-container">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">회사소개</a>
+                </li>
+              <li class="nav-item dropdown menu-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  예초/벌초
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">서비스 1</a></li>
+                  <li><a class="dropdown-item" href="#">서비스 2</a></li>
+                  <li><a class="dropdown-item" href="#">서비스 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown menu-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  예초/벌초
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">서비스 1</a></li>
+                  <li><a class="dropdown-item" href="#">서비스 2</a></li>
+                  <li><a class="dropdown-item" href="#">서비스 3</a></li>
+                </ul>
+              </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">고객센터</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="login.html" class="btn btn-outline-dark me-2" role="button">로그인</a>
+                </li>
+                <li class="nav-item">
+                  <a href="terms.html" class="btn btn-dark me-2" role="button">회원가입</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+<!-- 캐러셀 -->
+<div class="container-fluid p-0" style="height: 750px;">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">  
+    <!-- 캐러셀 이미지 3초 마다 변경 -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('img/aaa.jpg');">
+        <img src="img/aaa.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h3>첫 번째 슬라이드</h3>
+          <p>첫 번째 슬라이드에 대한 추가 설명</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('img/bbb.jpg');">
+        <img src="img/bbb.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h3>두 번째 슬라이드</h3>
+          <p>두 번째 슬라이드에 대한 추가 설명</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('img/ccc.jpg');">
+        <img src="img/ccc.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h3>세 번째 슬라이드</h3>
+          <p>세 번째 슬라이드에 대한 추가 설명</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="b-example-divider" style="height: 70px;"></div>
+
+<!-- 안내1 -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="view_sect1" data-aos="fade-right">
+        <h3>벌초</h3>
+        <p>벌초관련 안내문 작성</p>
+        <a href="/contents/04_data/sub01.html" class="btn btn-primary">바로가기</a>
+      </div>
+    </div>
+    <div class="col-md-6 ma">
+      <div class="view_sect2" data-aos="fade-left">
+        <h3>예초</h3>
+        <div>
+          <i></i>
+          <strong>044-999-6393</strong>
+          <a href="contents/02_preview/sub01.html">문의하기</a>
+        </div>
+        <ul class="list_bullet">
+          <li>
+            <strong>운영시간</strong>
+            <p>화요일-토요일 9:00 ~ 17:00<br>(점심시간 12:00~13:00)<br><span>※ 회사사정에 따라 변경될 수 있습니다.</span></p>
+          </li>
+          <li>
+            <strong>휴관</strong>
+            <p>토요일, 일요일 및 공휴일</p>
+          </li>
+          <li>
+            <strong>위치</strong>
+            <p>제주시 첨단로</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="b-example-divider" style="height: 70px;"></div>
+
+<!-- 슬릭 슬라이더 -->
+<div class="container-fluid container_ma" data-aos="fade-up" style=" background-color: rgba(0, 128, 0, 0.2);">
+  <h1 style="padding: 30px;">시공 사례</h1>
+
+  <div class="slider">
+    <div><img src="img/aaa.jpg" alt="이미지 1"></div>
+    <div><img src="img/bbb.jpg" alt="이미지 2"></div>
+    <div><img src="img/ccc.jpg" alt="이미지 3"></div>
+    <div><img src="img/fff.jpg" alt="이미지 4"></div>
+    <!-- 이하 필요한 만큼 슬라이드를 추가 -->
+  </div>
+</div>
+
+
+<!-- 안내2 -->
+<div class="container px-4 py-5" id="hanging-icons" data-aos="fade-up">
+  <h2 class="pb-2 border-bottom">회사소개</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start" data-aos="fade-up">
+      <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <i class="bi bi-toggle2-off"></i>
+      </div>
+      <div>
+        <h3 class="fs-2">벌초</h3>
+        <p>벌초 관련 정보,벌초 관련 정보,벌초 관련 정보,벌초 관련 정보,벌초 관련 정보,벌초 관련 정보,벌초 관련 정보,벌초 관련 정보</p>
+        <a href="#" class="btn btn-dark">
+          견적보기
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start" data-aos="fade-up">
+      <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <i class="bi bi-cpu-fill"></i>
+      </div>
+      <div>
+        <h3 class="fs-2">예초</h3>
+        <p>예초 관련 정보,예초 관련 정보,예초 관련 정보,예초 관련 정보,예초 관련 정보,예초 관련 정보,예초 관련 정보,예초 관련 정보</p>
+        <a href="#" class="btn btn-dark">
+          견적보기
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start" data-aos="fade-up">
+      <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <i class="bi bi-tools"></i>
+      </div>
+      <div>
+        <h3 class="fs-2">드론</h3>
+        <p>드론 관련 정보,드론 관련 정보,드론 관련 정보,드론 관련 정보,드론 관련 정보,드론 관련 정보,드론 관련 정보,드론 관련 정보</p>
+        <a href="#" class="btn btn-dark">
+          견적보기
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- 푸터 -->
+<footer class="bg-light text-center text-lg-start">
+  <!-- 푸터의 상단 부분에 대한 스타일링 -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 벌초박사:
+    <a class="text-dark" href="/">beolchobaksa.com</a>
+  </div>
+
+  <!-- 푸터의 하단 부분에 대한 스타일링 -->
+  <div class="container p-4">
+    <div class="row">
+      <!-- 첫 번째 열 -->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">회사소개</h5>
+        <p>
+          벌초박사는 전문적인 예초/벌초 서비스를 제공하는 회사입니다.
+        </p>
+      </div>
+
+      <!-- 두 번째 열 -->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">서비스</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-dark">서비스 1</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">서비스 2</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">서비스 3</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 세 번째 열 -->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">연락처</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <p class="text-dark">전화: 064-755-0811</p>
+          </li>
+          <li>
+            <p class="text-dark">이메일: gopang0811@naver.com</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+      <!-- 스크립트 -->
+      <!-- 부트스트랩 js -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <!-- 제이쿼리 -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <!-- Slick JS(슬릭 슬라이더) -->
+      <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <!-- 애니메이션 기능 aos라이브러리 -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- 헤더 js -->
+      <script src="js/header.js"></script>
+      <!-- 인덱스 js -->
+      <script src="js/index.js"></script>
+      <!-- 푸터 js -->
+      <script src="js/footer.js"></script>
+    
+      <!-- aos 실행 -->
+      <script> AOS.init(); </script>
+
+    </body>
+
+  </html>
