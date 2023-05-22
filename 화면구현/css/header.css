@@ -120,12 +120,7 @@ display: block;
   transition: background-color 0.3s ease, color 0.3s ease; /* 전환 효과 */
 }
 
-/* 버튼 호버 스타일 */
-.btn:hover {
-  background-color: #000; /* 호버 시 배경색을 검은색으로 변경 */
-  color: #fff; /* 호버 시 텍스트 색상을 흰색으로 변경 */
-}
-  
+
 
 /* 반응형 웹 - 화면 너비가 998px 미만일 때 슬라이드 효과 적용 */
 @media (max-width: 998px) {
