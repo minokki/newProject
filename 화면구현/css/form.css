@@ -76,6 +76,12 @@ margin-top: 10px;
 border-radius: 10px;
 }
 
+/* 아이디,비밀번호찾기  */
+.find a {
+    color: black;
+    text-decoration: none;
+}
+
 /* 폼 푸터 */
 .footer {
     width: 100%;
