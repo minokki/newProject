@@ -1,0 +1,394 @@
+  <!doctype html>
+  <html lang="ko" data-bs-theme="auto">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <meta name="generator" content="">
+      <title>벌초박사</title>
+      <!-- 링크 -->
+      <!-- 부트스트랩 cnd -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <!-- 부트스트랩 아이콘 -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+      <!-- 헤더css -->
+      <link rel="stylesheet" type="text/css" href="css/header.css">
+      <!-- 애니메이션 기능 aos라이브러리 -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <style>
+   .my-padding {
+    padding: 120px 0;
+}
+main{
+  background-color: #f9f9f9;
+}
+.company-intro-text {
+    padding-top: 100px; /* Increase or decrease this value as needed */
+}
+
+#AI-RPA {
+  background-color: #f9f9f9; /* light grey background */
+  color: #333; /* dark grey text */
+  padding: 50px 0; /* vertical padding */
+}
+
+#AI-RPA h1 {
+  font-size: 2.5em; /* large title font */
+  margin-bottom: 10px; /* space below title */
+  text-align: center;
+}
+
+#AI-RPA h2 {
+  font-size: 1.5em; /* smaller subtitle font */
+  margin-bottom: 25px; /* larger space below subtitle */
+  text-align: center;
+  color: #777; /* lighter grey for subtitle */
+}
+
+#AI-RPA p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+#AI-RPA h3 {
+  font-size: 1.5em; /* service title size */
+  border-bottom: 1px solid black; /* underline */
+  margin-bottom: 10px; /* space below title */
+}
+
+#AI-RPA h4 {
+  font-size: 1.2em; /* list title size */
+  margin-bottom: 5px; /* small space below title */
+}
+
+#AI-RPA ul {
+  list-style: none; /* no bullets */
+}
+
+#AI-RPA ul li {
+  margin-bottom: 30px; /* space between list items */
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto; /* center the content */
+  padding: 0 15px; /* horizontal padding */
+}
+
+
+/* Services Section Styles */
+
+.services {
+  background-color: #f9f9f9; /* light grey background */
+  color: #333; /* dark grey text */
+  padding: 50px 0; /* vertical padding */
+}
+
+.services h2 {
+  font-size: 2.5em; /* large title font */
+  margin-bottom: 30px; /* space below title */
+}
+
+.services h4 {
+  font-size: 1.5em; /* service title size */
+  margin: 20px 0; /* space above and below title */
+}
+
+.services p {
+  font-size: 1em;
+  line-height:
+}
+
+
+
+/* Drones Section Styles */
+
+.drones {
+  padding: 60px 0; /* vertical padding */
+ 
+  color: #333; /* dark grey text */
+}
+
+.drones h2 {
+  font-size: 2.5em; /* large title font */
+  margin-bottom: 30px; /* space below title */
+  text-align: center;
+}
+
+.drones p {
+  font-size: 1.2em; /* larger text for readability */
+  line-height: 1.5; /* space between lines of text */
+}
+
+.drones img {
+  max-width: 100%; /* image will not exceed its parent width */
+  border-radius: 5px; /* rounded corners */
+}
+        
+      </style>
+    </head>
+    <body>
+
+      <!-- 네비게이션 -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/logo.png" class="img-fluid" id="logo" alt="회사로고" width="200" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-end d-none"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <div class="nav-menu-container">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">회사소개</a>
+                </li>
+              <li class="nav-item dropdown menu-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  예초/벌초
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">서비스 1</a></li>
+                  <li><a class="dropdown-item" href="#">서비스 2</a></li>
+                  <li><a class="dropdown-item" href="#">서비스 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown menu-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  예초/벌초
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">서비스 1</a></li>
+                  <li><a class="dropdown-item" href="#">서비스 2</a></li>
+                  <li><a class="dropdown-item" href="#">서비스 3</a></li>
+                </ul>
+              </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">고객센터</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="login.html" class="btn btn-outline-dark me-2" role="button">로그인</a>
+                </li>
+                <li class="nav-item">
+                  <a href="terms.html" class="btn btn-dark me-2" role="button">회원가입</a>
+                </li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+<!-- 페이지 영억 -->
+<!-- 페이지 영역 -->
+<main>
+
+ <!-- 회사 소개 섹션 -->
+<section class="company-intro my-padding" style="background: url('img/mo1.png') center center / cover no-repeat;">
+  <div class="container h-100 d-flex align-items-center justify-content-center text-center text-white">
+    <div class="company-intro-text">
+          <h2 class="mb-2">회사 소개</h2>
+          <p>벌초박사는 전문적인 예초/벌초 서비스를 제공하는 회사입니다. 저희 회사는 고객의 요구를 최우선으로 생각하며, 항상 최고의 서비스를 제공하기 위해 노력하고 있습니다. 벌초박사와 함께하면 항상 만족할 수 있을 것입니다.</p>
+      </div>
+  </div>
+</section>
+
+<!-- AI-RPA Section -->
+<section id="AI-RPA" >
+  <div class="container">
+      <h1>AI-RPA</h1>
+      <h2>HOME SERVICE AI RPA</h2>
+      <p>
+        AK아이에스의 AI-RPA IT 서비스를 소개합니다
+        고객의 요구에 맞게 제공하는 최적화된 서비스를 만나보세요
+        AKIS는 UiPath를 기반으로 2017년 애경그룹 내 국내 최초로 RPA 적용을 시작으로 5년째 RPA end-to-end 서비스를 유수의 대기업부터 중소기업까지
+  
+        
+    
+          <!-- Add the rest of the paragraph here -->
+      </p>
+      <h3 style="border-bottom: 1px solid black;">주요 서비스</h3>
+      <ul>
+          <li>
+              <h4>RPA 컨설팅 - RPA 변화관리 및 과제도출</h4>
+              <p>
+                RPA 컨설팅 - RPA 변화관리 및 과제도출
+
+                RPA라는 개념이 생소하고 회사 내 어떤 업무가 자동화가 대상인지 모르는 고객을 대상으로 RPA 기초 개념 소개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한 구축까지 구성하는 서비스입니다. RPA는 초기에 전 직원에게 정확하게 어떤 의미이지가 전달되어야 향후 지속적인 프로세스 자동화를 통한 업무 및 데이터 품질 향상을 도모할 수 있습니다. 이를 위해 AKIS는 Design thinking, Hackerton, Workshop 등의 다양한 도구등을 통해 고객사에 적합한 업무를 도출하고 도출된 업무에 대하여 정성, 정량적 평가를 통해 RPA 업무 대상 프로세스를 도출합니다.
+              </p>
+              
+          </li>
+
+          <li>
+            <h4>RPA 컨설팅 - RPA 변화관리 및 과제도출</h4>
+            <p>
+              RPA 컨설팅 - RPA 변화관리 및 과제도출
+
+              RPA라는 개념이 생소하고 회사 내 어떤 업무가 자동화가 대상인지 모르는 고객을 대상으로 RPA 기초 개념 소개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한 구축까지 구성하는 서비스입니다. RPA는 초기에 전 직원에게 정확하게 어떤 의미이지가 전달되어야 향후 지속적인 프로세스 자동화를 통한 업무 및 데이터 품질 향상을 도모할 수 있습니다. 이를 위해 AKIS는 Design thinking, Hackerton, Workshop 등의 다양한 도구등을 통해 고객사에 적합한 업무를 도출하고 도출된 업무에 대하여 정성, 정량적 평가를 통해 RPA 업무 대상 프로세스를 도출합니다.
+            </p>
+            
+        </li>
+
+        <li>
+          <h4>RPA 컨설팅 - RPA 변화관리 및 과제도출</h4>
+          <p>
+            RPA 컨설팅 - RPA 변화관리 및 과제도출
+
+            RPA라는 개념이 생소하고 회사 내 어떤 업무가 자동화가 대상인지 모르는 고객을 대상으로 RPA 기초 개념 소개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한 구축까지 구성하는 서비스입니다. RPA는 초기에 전 직원에게 정확하게 어떤 의미이지가 전달되어야 향후 지속적인 프로세스 자동화를 통한 업무 및 데이터 품질 향상을 도모할 수 있습니다. 이를 위해 AKIS는 Design thinking, Hackerton, Workshop 등의 다양한 도구등을 통해 고객사에 적합한 업무를 도출하고 도출된 업무에 대하여 정성, 정량적 평가를 통해 RPA 업무 대상 프로세스를 도출합니다.
+          </p>
+          
+      </li>
+          <!-- Add more list items for other services -->
+      </ul>
+  </div>
+</section>
+
+
+
+
+
+
+  
+
+<!-- 드론 섹션 -->
+<section id="drones" class="drones py-5" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container">
+    <h2 class="display-4 text-center">드론 서비스</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <!-- 드론 이미지 -->
+        <img src="img/mo3.png" class="img-fluid rounded mb-3" alt="드론 이미지" style="max-width: 500px;">
+      </div>
+      <div class="col-lg-6">
+        <!-- 드론 서비스 소개 텍스트 -->
+        <p class="lead">저희 회사는 최신 기술의 드론을 이용하여 효율적인 서비스를 제공하고 있습니다.</p>
+        <!-- 추가적인 설명 -->
+        <p>드론을 이용하여 빠르고 정확하게 작업을 수행할 수 있으며, 어려운 지역도 쉽게 접근이 가능합니다.
+          드론을 이용하여 빠르고 정확하게 작업을 수행할 수 있으며, 어려운 지역도 쉽게 접근이 가능합니다.
+          드론을 이용하여 빠르고 정확하게 작업을 수행할 수 있으며, 어려운 지역도 쉽게 접근이 가능합니다.
+          드론을 이용하여 빠르고 정확하게 작업을 수행할 수 있으며, 어려운 지역도 쉽게 접근이 가능합니다.<
+          드론을 이용하여 빠르고 정확하게 작업을 수행할 수 있으며, 어려운 지역도 쉽게 접근이 가능합니다.
+        </p>
+         <p>드론을 이용하여 빠르고 정확하게 작업을 수행할 수 있으며, 어려운 지역도 쉽게 접근이 가능합니다.
+          드론을 이용하여 빠르고 정확하게 작업을 수행할 수 있으며, 어려운 지역도 쉽게 접근이 가능합니다.
+          드론을 이용하여 빠르고 정확하게 작업을 수행할 수 있으며, 어려운 지역도 쉽게 접근이 가능합니다.<
+         </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 서비스 섹션 -->
+<!-- Services Section -->
+<section id="services" class="services py-5" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container">
+    <h2 class="display-4 text-center" style="border-bottom: 1px solid black;">Our Services</h2>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <i class="fas fa-cogs fa-3x"></i>
+        <h4>Service 1</h4>
+        <p>RPA라는 개념이 생소하고 회사 내 어떤 업무가 자동화
+          개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한
+          개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한가 대상인지 모르는 고객을 대상으로 RPA 기초 개념 소개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="fas fa-brain fa-3x"></i>
+        <h4>Service 2</h4>
+        <p>RPA라는 개념이 생소하고 회사 내 어떤 업무가 자동화가 대상인지 모르는 고객을 대상으로 RPA 기초 개념 소개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한
+          개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="fas fa-mobile-alt fa-3x"></i>
+        <h4>Service 3</h4>
+        <p>RPA라는 개념이 생소하고 회사 내 어떤 업무가 자동화가 대상인지 모르는 고객을 대상으로 RPA 기초 개념 소개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한
+          개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한개부터 RPA 적용 대상 업무 선정 그리고 솔루션을 통한
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- 이하 내용은 필요에 따라 추가/수정 -->
+  <!-- ... -->
+  <div class="b-example-divider" style="height: 70px;"></div>
+</main>
+<!-- 페이지 영역 끝 -->
+
+<!-- 페이지 영역 끝 -->
+
+
+<!-- 푸터 -->
+<footer class="text-center text-lg-start"  style="background-color: rgba(0, 0, 0, 0.2);">
+  <!-- 푸터의 상단 부분에 대한 스타일링 -->
+
+  <!-- 푸터의 하단 부분에 대한 스타일링 -->
+  <div class="container p-4">
+    <div class="row">
+      <!-- 첫 번째 열 -->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">회사소개</h5>
+        <p>
+          벌초박사는 전문적인 예초/벌초 서비스를 제공하는 회사입니다.
+        </p>
+      </div>
+
+      <!-- 두 번째 열 -->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">서비스</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-dark">서비스 1</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">서비스 2</a>
+          </li>
+          <li>
+            <a href="#!" class="text-dark">서비스 3</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 세 번째 열 -->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">연락처</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <p class="text-dark">전화: 064-755-0811</p>
+          </li>
+          <li>
+            <p class="text-dark">이메일: gopang0811@naver.com</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+      <!-- 스크립트 -->
+      <!-- 부트스트랩 js -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <!-- 제이쿼리 -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+      <!-- 애니메이션 기능 aos라이브러리 -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- 헤더 js -->
+      <script src="js/header.js"></script>
+      <!-- aos 실행 -->
+      <script> AOS.init(); </script>
+
+    </body>
+
+  </html>
