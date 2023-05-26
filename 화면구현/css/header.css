@@ -68,7 +68,6 @@ display: block;
   z-index: 1000;
   background-color: transparent !important;
   transition: background-color 0.5s ease; /* 0.5s 동안 부드럽게 전환 */
-  font-family: Arial, sans-serif; /* 가독성을 높이기 위한 폰트 변경 */
 }
 /* 네비게이션바 스크롤 */
 .nav-scrolled {
@@ -168,4 +167,5 @@ display: block;
   .menu-item {
     font-weight: bold;
     margin-right: 20px;
+    font-size: 20px;
 }

@@ -23,6 +23,177 @@
       <!-- Slick CSS(슬릭슬라이더) -->
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
+
+      <style>
+
+ .view_sect1 {
+        font-family: Arial, sans-serif;
+    }
+
+    .view_sect1 h3 {
+        font-size: 2em;
+        color: #2C3E50;
+        margin-bottom: 20px;
+    }
+
+    .view_sect1 div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .view_sect1 div strong {
+        font-size: 16px;
+        color: #27AE60;
+    }
+
+    .view_sect1 div a {
+        text-decoration: none;
+        color: #2980B9;
+    }
+
+    .view_sect1 ul {
+        list-style-type: none;
+    }
+
+    .view_sect1 ul li {
+        margin-bottom: 10px;
+    }
+
+    .view_sect1 ul li strong {
+        display: block;
+        font-size: 1.1em;
+        color: #7F8C8D;
+    }
+
+    .view_sect1 ul li p {
+        font-size: 14px;
+        color: #95A5A6;
+    }
+
+    .view_sect1 ul li p span {
+        color: #E74C3C;
+    }
+
+
+
+    .view_sect2 {
+        font-family: Arial, sans-serif;
+    }
+
+    .view_sect2 h3 {
+        font-size: 2em;
+        color: #2C3E50;
+        margin-bottom: 20px;
+    }
+
+    .view_sect2 div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .view_sect2 div strong {
+        font-size: 16px;
+        color: #27AE60;
+    }
+
+    .view_sect2 div a {
+        text-decoration: none;
+        color: #2980B9;
+    }
+
+    .view_sect2 ul {
+        list-style-type: none;
+    }
+
+    .view_sect2 ul li {
+        margin-bottom: 10px;
+    }
+
+    .view_sect2 ul li strong {
+        display: block;
+        font-size: 1.1em;
+        color: #7F8C8D;
+    }
+
+    .view_sect2 ul li p {
+        font-size: 14px;
+        color: #95A5A6;
+    }
+
+    .view_sect2 ul li p span {
+        color: #E74C3C;
+    }
+/*  */
+
+.container_ma {
+        font-family: Arial, sans-serif;
+        margin: 0 auto;
+          padding: 30px;
+          text-align: center;
+    }
+
+    .container_ma h1 {
+        font-size: 2.5em;
+        text-align: center;
+
+    }
+
+    .container_ma h2 {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+/*  */
+
+
+
+.mm {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.mm::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('img/zzz.png');
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  opacity: 0.5; /* 투명도 설정 */
+  z-index: -1;
+}
+        .wrapper {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 30px;
+          text-align: center;
+        }
+        
+        .main_visual_tit {
+          font-size: 40px;
+          font-weight: bold;
+        }
+        
+        .main_visual_txt {
+          font-size: 32px;
+        }
+        
+        .main_visual_subtxt {
+          font-size: 24px;
+          padding-bottom: 20px;
+        }
+        </style>
+        
     </head>
     <body>
 
@@ -84,85 +255,112 @@
 
 
 <!-- 캐러셀 -->
-<div class="container-fluid p-0" style="height: 750px;">
+<div class="container-fluid p-0 " style="margin-top:70; pxheight: 750px;">
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">  
     <!-- 캐러셀 이미지 3초 마다 변경 -->
     <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url('img/aaa.jpg');">
+      <div class="carousel-item active" style="background-image: url('img/111.jpg');">
         <img src="img/aaa.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption">
-          <h3>첫 번째 슬라이드</h3>
-          <p>첫 번째 슬라이드에 대한 추가 설명</p>
+          <h3>예초</h3>
+          <p>전문적인 예초 서비스로 잔디의 건강을 유지하며, 풍부한 푸른색을 느끼세요.</p>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('img/bbb.jpg');">
+      <div class="carousel-item" style="background-image: url('img/222.jpg');">
         <img src="img/bbb.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption">
-          <h3>두 번째 슬라이드</h3>
-          <p>두 번째 슬라이드에 대한 추가 설명</p>
+          <h3>드론</h3>
+          <p>고기능 드론 기술로 어려운 장소도 쉽게 관리하고, 빠르게 정보를 수집합니다.</p>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('img/ccc.jpg');">
+      <div class="carousel-item" style="background-image: url('img/eeeee.jpg');">
         <img src="img/ccc.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption">
-          <h3>세 번째 슬라이드</h3>
-          <p>세 번째 슬라이드에 대한 추가 설명</p>
+          <h3>벌초</h3>
+          <p>전문가들이 안전하게 벌목하고, 필요하지 않는 식물을 제거하며, 당신의 땅을 새롭게 만들어 드립니다.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="b-example-divider" style="height: 70px;"></div>
+<div class="b-example-divider" style="height: 55px;"></div>
+
+
 
 <!-- 안내1 -->
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="view_sect1" data-aos="fade-right">
-        <h3>벌초</h3>
-        <p>벌초관련 안내문 작성</p>
-        <a href="/contents/04_data/sub01.html" class="btn btn-primary">바로가기</a>
+  <div class="mm">
+    <div class="wrapper">
+      <p class="main_visual_tit">SERVICE</p>
+      <p class="main_visual_txt">벌초닷컴이 제안하는 퀄리티 높은 정보를 경험하세요</p>
+      <p class="main_visual_subtxt">고객사의 경영 성과 향상을 위해 최적화된 서비스를 제공합니다</p>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="view_sect1" data-aos="fade-right">
+          <h3>전문 예초 서비스</h3>
+          <div>
+              <i></i>
+              <strong>044-999-6393</strong>
+              <a href="contents/02_preview/sub01.html">문의하기</a>
+          </div>
+          <ul class="list_bullet">
+              <li>
+                  <strong>예초 서비스의 중요성</strong>
+                  <p>잔디의 건강을 유지하며, 풍부한 푸른색을 느낄 수 있도록 도와주는 예초 서비스는 가치있는 투자입니다.</p>
+              </li>
+              <li>
+                  <strong>우리의 전문성</strong>
+                  <p>우리는 다년간의 경험을 통해 전문적인 예초 서비스를 제공하고 있습니다. 고객님의 잔디가 항상 최상의 상태를 유지할 수 있도록 도와드립니다.</p>
+              </li>
+              <li>
+                  <strong>서비스 문의</strong>
+                  <p>예초 서비스에 대한 자세한 정보를 원하시거나, 서비스를 신청하고 싶으시다면 위의 전화번호로 문의하시거나 '문의하기' 링크를 클릭해 주세요.</p>
+              </li>
+          </ul>
+      </div>
+      </div>
+      <div class="col-md-6 ma">
+        <div class="view_sect2" data-aos="fade-left">
+          <h3>운영 시간 및 정보</h3>
+          <div>
+              <i></i>
+              <strong>044-999-6393</strong>
+              <a href="contents/02_preview/sub01.html">문의하기</a>
+          </div>
+          <ul class="list_bullet">
+              <li>
+                  <strong>운영시간</strong>
+                  <p>우리의 예초 서비스는 월요일부터 금요일까지 매일 9시부터 5시까지 이용하실 수 있습니다.<br>점심시간은 12시부터 1시까지이며, 이 시간에는 서비스가 중단됩니다.<br><span>※ 회사사정에 따라 운영 시간이 변경될 수 있습니다.</span></p>
+              </li>
+              <li>
+                  <strong>휴관</strong>
+                  <p>토요일, 일요일 및 공휴일은 운영하지 않습니다.</p>
+              </li>
+              <li>
+                  <strong>위치</strong>
+                  <p>우리의 사무실은 제주시 첨단로에 위치해 있습니다. 더 자세한 위치 정보는 '문의하기' 링크를 통해 문의하실 수 있습니다.</p>
+              </li>
+          </ul>
+      </div>
       </div>
     </div>
-    <div class="col-md-6 ma">
-      <div class="view_sect2" data-aos="fade-left">
-        <h3>예초</h3>
-        <div>
-          <i></i>
-          <strong>044-999-6393</strong>
-          <a href="contents/02_preview/sub01.html">문의하기</a>
-        </div>
-        <ul class="list_bullet">
-          <li>
-            <strong>운영시간</strong>
-            <p>화요일-토요일 9:00 ~ 17:00<br>(점심시간 12:00~13:00)<br><span>※ 회사사정에 따라 변경될 수 있습니다.</span></p>
-          </li>
-          <li>
-            <strong>휴관</strong>
-            <p>토요일, 일요일 및 공휴일</p>
-          </li>
-          <li>
-            <strong>위치</strong>
-            <p>제주시 첨단로</p>
-          </li>
-        </ul>
-      </div>
-    </div>
+ 
   </div>
 </div>
 
-<div class="b-example-divider" style="height: 70px;"></div>
 
 <!-- 슬릭 슬라이더 -->
-<div class="container-fluid container_ma" data-aos="fade-up" style=" background-color: rgba(0, 128, 0, 0.2);">
-  <h1 style="padding: 30px;">시공 사례</h1>
-
+<div class="container-fluid container_ma" data-aos="fade-up">
+  <p class="main_visual_tit">시공 사례</p>
+  <p class="main_visual_txt">저희는 전문적인 접근 방식으로 고객사에게 퀄리티 높은 경험을 선사하고 있습니다.</p>
+  <p class="main_visual_subtxt">벌초닷컴은 고객사의 경영 성과 향상을 위해 고품질의 정보와 최적화된 서비스를 제공하는 시공 사례입니다.</p>
   <div class="slider">
-    <div><img src="img/aaa.jpg" alt="이미지 1"></div>
-    <div><img src="img/bbb.jpg" alt="이미지 2"></div>
-    <div><img src="img/ccc.jpg" alt="이미지 3"></div>
-    <div><img src="img/fff.jpg" alt="이미지 4"></div>
+    <div><img src="img/mo3.png" alt="이미지 1"></div>
+    <div><img src="img/aa.jpg" alt="이미지 2"></div>
+    <div><img src="img/cc.jpg" alt="이미지 3"></div>
+    <div><img src="img/mo1.png" alt="이미지 4"></div>
     <!-- 이하 필요한 만큼 슬라이드를 추가 -->
   </div>
 </div>
@@ -211,16 +409,10 @@
   </div>
 </div>
 
-<div class="b-example-divider" style="height: 70px;"></div>
+<div class="b-example-divider" style="height: 70px;"></div> 
 
 <!-- 푸터 -->
-<footer class="bg-light text-center text-lg-start">
-  <!-- 푸터의 상단 부분에 대한 스타일링 -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 벌초박사:
-    <a class="text-dark" href="/">beolchobaksa.com</a>
-  </div>
-
+<footer class="text-center text-lg-start" style="background-color: rgba(0, 0, 0, 0.2);">
   <!-- 푸터의 하단 부분에 대한 스타일링 -->
   <div class="container p-4">
     <div class="row">
@@ -278,8 +470,6 @@
       <script src="js/header.js"></script>
       <!-- 인덱스 js -->
       <script src="js/index.js"></script>
-      <!-- 푸터 js -->
-      <script src="js/footer.js"></script>
     
       <!-- aos 실행 -->
       <script> AOS.init(); </script>

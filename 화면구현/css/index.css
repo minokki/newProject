@@ -133,7 +133,6 @@
 .container_ma {
     margin: auto;
     padding: 0 15px; /* 이 부분을 추가해보세요. */
-    background-color: #f1f1f1;
     height: 600px;
 }
 
